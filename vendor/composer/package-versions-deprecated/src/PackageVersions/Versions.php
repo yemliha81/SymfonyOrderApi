@@ -113,13 +113,13 @@ final class Versions
   'symfony/yaml' => 'v4.4.18@bbce94f14d73732340740366fcbe63363663a403',
   'willdurand/jsonp-callback-validator' => 'v1.1.0@1a7d388bb521959e612ef50c5c7b1691b097e909',
   'willdurand/negotiation' => '3.0.0@04e14f38d4edfcc974114a07d2777d90c98f3d9c',
-  'paragonie/random_compat' => '2.*@',
-  'symfony/polyfill-ctype' => '*@',
-  'symfony/polyfill-iconv' => '*@',
-  'symfony/polyfill-php71' => '*@',
-  'symfony/polyfill-php70' => '*@',
-  'symfony/polyfill-php56' => '*@',
-  '__root__' => 'No version set (parsed as 1.0.0)@',
+  'paragonie/random_compat' => '2.*@6e4ece864397137ea14d362f7da4221e727883b3',
+  'symfony/polyfill-ctype' => '*@6e4ece864397137ea14d362f7da4221e727883b3',
+  'symfony/polyfill-iconv' => '*@6e4ece864397137ea14d362f7da4221e727883b3',
+  'symfony/polyfill-php71' => '*@6e4ece864397137ea14d362f7da4221e727883b3',
+  'symfony/polyfill-php70' => '*@6e4ece864397137ea14d362f7da4221e727883b3',
+  'symfony/polyfill-php56' => '*@6e4ece864397137ea14d362f7da4221e727883b3',
+  '__root__' => 'dev-main@6e4ece864397137ea14d362f7da4221e727883b3',
 );
 
     private function __construct()
