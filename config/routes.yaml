@@ -1,0 +1,31 @@
+register:
+    path: /register
+    controller: App\Controller\AuthController::register
+    methods: POST
+
+api:
+    path: /api
+    controller: App\Controller\AuthController::api
+
+login_check:
+    path:     /login_check
+    methods:  POST
+
+orders:
+    path:   /api/orders
+    controller: App\Controller\OrderController::orders
+
+orders_create:
+    path:   /api/orders/create
+    controller: App\Controller\OrderController::create
+    methods: POST
+
+orders_find:
+    path:   /api/orders/find
+    controller: App\Controller\OrderController::find
+    methods: POST
+
+orders_edit:
+    path:   /api/orders/edit
+    controller: App\Controller\OrderController::edit
+    methods: PUT
